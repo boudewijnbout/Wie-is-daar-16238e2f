@@ -30,7 +30,7 @@
 
 // Submit click check
 
-if (isset($_POST['submit'])) {
+    if (isset($_POST['submit'])) {
 
     $server_reaction = $_POST['number_1'];
 
