@@ -27,21 +27,15 @@
 
 <!-- PHP Start -->
 <?php
-
 // Submit click check
-
     if (isset($_POST['submit'])) {
-
     $server_reaction = $_POST['number_1'];
-
     if ($server_reaction == "Hallo Computer") {
         echo "Hallo Gebruiker!";
     }
-
     if ($server_reaction == "hallo computer") {
         echo "Hallo Gebruiker!";
     }
 }
-
 // PHP End
 ?>
